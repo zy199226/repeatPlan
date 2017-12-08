@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>lenght</title>
+</head>
+
+<body>
+    <script src="./Rfrom.js" charset="utf-8"></script>
+    <script type="text/javascript">
+    const a = new Map();
+    a.set(1, 'abc');
+    a.set(2, 'abc');
+
+    const b = new Set();
+    b.add(1);
+    b.add(2);
+
+    console.log(Array.from(a));
+
+    function f() {
+        return Array.from(arguments);
+    }
+
+    console.log(f(1, 2, 3));
+
+    console.log(Array.from(new Map([[1, 2], [2, 4], [4, 8]])));
+
+    console.log(Array.from({length: 5}));
+    </script>
+</body>
+
+</html>

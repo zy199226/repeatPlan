@@ -19,25 +19,12 @@
 
     const d = { a: 2 };
 
-    // console.log(Array.from(a));
-    //
-    // function f() {
-    //     return Array.from(arguments);
-    // }
-    //
-    // console.log(f(1, 2, 3));
-    //
-    // console.log(Array.from(new Map([[1, 2], [2, 4], [4, 8]])));
-    //
-    // console.log(Array.from({length: 5}));
-    // console.log(Array.Rfrom(a));
-    // console.log(Array.Rfrom([1, 2, 3]));
-    console.log(Object([1, 2, 3]));
+    console.log(Array.Rfrom(a));
+    console.log(Array.Rfrom(b));
+    console.log(Array.Rfrom('foo'));
     console.log(Array.Rfrom([1, 2, 3], function (x) {
         return x + this.a;
     }, d));
-    // console.log(Array.from([1, 2, 3], x => x + this.a, d));
-    // console.log([1, 'abc'] + 1);
     </script>
 </body>
 

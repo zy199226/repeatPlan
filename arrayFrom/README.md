@@ -1,4 +1,4 @@
 # 2017.12.12
 
-- 通过可遍历对象的属性 [Symbol.iterator] 来实现原生 Array.from 方法。
+- 通过对象的迭代器属性 [Symbol.iterator] 来实现原生 Array.from 方法。
 - 在写法和报错上参考了 MDN，希望下次自己能独立写出一个细节考虑周全的方法。

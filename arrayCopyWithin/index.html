@@ -9,13 +9,11 @@
 <body>
     <script src="./RcopyWithin.js" charset="utf-8"></script>
     <script type="text/javascript">
-    const b = -5;
-    console.log(b >>> 1);
-    console.log(b);
-
-    var arr = ['a', 'b', 'c', 'd', 'e'];
-    console.log(arr.copyWithin(0, 3, 2));
-    console.log(arr.RcopyWithin(0, 1, 5));
+    var a = ['a', 'b', 'c', 'd', 'e'];
+    var b = ['a', 'b', 'c', 'd', 'e'];
+    console.log(a);
+    console.log(a.RcopyWithin(1, 0, 4));
+    console.log(b.copyWithin(1, 0, 4));
 
     </script>
 </body>

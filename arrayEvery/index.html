@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>arrayEvery</title>
+</head>
+
+<body>
+    <script src="./Revery.js" charset="utf-8"></script>
+    <script type="text/javascript">
+        const a = [1, 2, 3, 4, 5, 5, 5];
+        const b = a.every(v => v >= 0);
+        console.log(b);
+
+        const c = a.Revery(function (v) {
+            return v >= 5;
+        });
+        console.log(c);
+    </script>
+</body>
+
+</html>
